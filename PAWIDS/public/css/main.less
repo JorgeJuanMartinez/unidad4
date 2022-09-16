@@ -1,0 +1,35 @@
+@bgColor : #FA2C1F;
+
+.setBackgroundGeneral(@color){
+	background-color: @color;
+
+}
+
+.container{
+	
+	width:80%;
+	margin: auto;
+
+	fieldset{
+	box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	.setBackgroundGeneral(yellow);
+
+		form{
+
+			label{
+			margin-top: 10px;
+			display : block;
+			background-color: @bgColor;
+
+		}
+		
+			button{
+			border-color:red;
+			background-color:cyan;
+			color:white;
+
+			
+			}
+		}
+	}
+}
